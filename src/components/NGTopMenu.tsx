@@ -6,19 +6,17 @@ import { Search } from "react-bootstrap-icons";
 const DarkPillSearchBar = () => {
   return (
     <Nav className="justify-content-center">
-        <Container className="w-100 justify-content-center">
-            
-            <InputGroup id="search-bar" className="input-group input-group-sm rounded-pill">
-                <Form.Control type="search" className="form-control form-control-sm rounded-start-pill bg-transparent border-0 custom-search" 
-                    placeholder="Search Newgrounds..." 
-                />
-                <Button className="btn btn-secondary btn-sm rounded-end-pill bg-transparent border-0 " 
-                    type="submit">
-                    <Search style={{color: '#232525'}}/>
-                </Button>
-            </InputGroup>
-            
-        </Container>
+      <Container className="w-100 justify-content-center">
+        <InputGroup id="search-bar" className="input-group input-group-sm rounded-pill">
+          <Form.Control type="search" className="form-control form-control-sm rounded-start-pill bg-transparent border-0 custom-search" 
+            placeholder="Search Newgrounds..." 
+          />
+          <Button className="btn btn-secondary btn-sm rounded-end-pill bg-transparent border-0 " 
+            type="submit">
+            <Search style={{color: '#232525'}}/>
+          </Button>
+        </InputGroup>
+      </Container>
     </Nav>
   );
 };
